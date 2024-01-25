@@ -11,6 +11,7 @@ fragen = [
 
 import random
 
+
 def run_quiz(fragen):
     score = 0
     random.shuffle(fragen)
@@ -31,7 +32,3 @@ def run_quiz(fragen):
     print(f"\nQuiz beendet! Du hast {score} von {len(fragen)} Fragen richtig beantwortet.") 
 
 run_quiz(fragen)
-
-
-
-
